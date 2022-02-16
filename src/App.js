@@ -6,8 +6,8 @@ import Nav from './Components/Nav'
 function App() {
   return (
     <>
-      <Main />
-      <Nav />
+      <Main/>
+      <Nav page="Profile"/>
     </>
   );
 }

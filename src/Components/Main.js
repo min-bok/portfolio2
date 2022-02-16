@@ -5,10 +5,10 @@ import '../css/style.css'
 function Main() {
     return (
         <>
-        {/* <img src="img/me.png" alt="프로필 사진" /> */}
         <section className={`${style.main}`}>
             <div className={`${style.container}`}>
                 <div className={`${style.picture}`}></div>
+                {/* <div className={`${style.pictureDeco}`}></div> */}
                 <div className={`${style.textWrap}`}>
                     <div className={`${style.first}`}>
                         <p className={`${style.name}`}><b>Name</b> 이혜영</p>
