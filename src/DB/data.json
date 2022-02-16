@@ -1,0 +1,12 @@
+{
+    "project" : [
+        {
+            "title" : "Until Gameover",
+            "info" : "장애물을 피해 점프하며 아이를 구하는 게임입니다.",
+            "date" : "2021.03 - 2021.10",
+            "team" : "Front-End 1명",
+            "stack" : "HTML, CSS, JavaScript",
+            "link" : ""
+        }
+    ]
+}
