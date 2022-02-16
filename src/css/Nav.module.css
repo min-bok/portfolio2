@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-.profileWrap:hover::after,
+.profileWrap::after,
 .strengthWrap:hover::after,
 .skillWrap:hover::after,
 .projectWrap:hover::after {
@@ -89,7 +89,7 @@
     margin-left: 10px;
 }
 
-.profileWrap:hover::after {
+.profileWrap::after {
     content: 'profile';
 }
 
