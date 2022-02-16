@@ -1,6 +1,4 @@
 import style from '../css/Main.module.css'
-import '../css/reset.css'
-import '../css/style.css'
 
 function Main() {
     return (
