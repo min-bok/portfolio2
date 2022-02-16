@@ -11,19 +11,27 @@ function Nav() {
                 <p className={`${style.title}`}>Portfolio</p>
             </div>
             <ul className={`${style.nav}`}>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
+                <li className={`${style.profile}`}></li>
+                <li className={`${style.strength}`}></li>
+                <li className={`${style.skill}`}></li>
+                <li className={`${style.project}`}></li>
             </ul>
         
             <div className={`${style.contactWrap}`}>
                 <p className={`${style.contact}`}>Contact</p>
                 <div className={`${style.line}`}></div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
+                <div className={`${style.github}`}>
+                    <div className={`${style.githubIcon}`}></div>
+                </div>
+                <div className={`${style.github}`}>
+                    <div className={`${style.githubIcon}`}></div>
+                </div>
+                <div className={`${style.gmail}`}>
+                    <div className={`${style.gmailIcon}`}></div>
+                </div>
+                <div className={`${style.gmail}`}>
+                    <div className={`${style.gmailIcon}`}></div>
+                </div>
             </div>
         </div>
         </>
