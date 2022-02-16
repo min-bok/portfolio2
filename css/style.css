@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
 
 * {
     margin: 0;
@@ -12,13 +15,110 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Nanum Myeongjo', serif;
-    overflow-x: hidden;
+    font-family: 'Pretendard-Regular';
+    background-color: aqua;
+
 }
 
 /* profile */
 
+#profile {
+    width: 100%;
+    height: 100%;
+}
+
+/* hambegurBtn */
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.hambegurBtn {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+}
+
+.rowLine {
+    width: 30px;
+    border-top: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* navBtn */
+
+.navBtn {
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.profileBtn {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+
+.strengthBtn,
+.skillBtn,
+.projectBtn {
+    width: 30px;
+    height: 10px;
+    background-color: red;
+}
+
+/* picture and text */
+
+.profileInfoWrap {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    align-items: center;
+}
+
+.picandtextWrap {
+    display: flex;
+    background-color: powderblue;
+}
+
 .profilePic {
     width: 170px;
     height: 170px;
+    margin-right: 30px;
+}
+
+.profileText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstText {
+    display: flex;
+}
+.name {
+    margin-right: 30px;
+}
+
+.profileText b {
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.profileIntroduce {
+    margin-top: 30px;
+    font-weight: 700;
 }
