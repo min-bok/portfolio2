@@ -18,76 +18,7 @@ body {
 
 /* profile */
 
-.profile {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* picture */
-
 .profilePic {
     width: 170px;
     height: 170px;
-}
-
-/* .pictureDeco {
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    border: 1px solid #000;
-    transform: rotate(25deg);
-    left: 410px;
-} */
-
-/* textWrap */
-
-.textWrap {
-    display: flex;
-    flex-direction: column;
-    /* background-color: aqua; */
-    margin-left: 50px;
-}
-
-.textWrap .first {
-    display: flex;
-}
-
-.textWrap .first .birth {
-    margin-left: 3.75rem;
-}
-
-.textWrap b {
-    font-weight: 800;
-}
-
-.textWrap p {
-    line-height: 36px;
-    font-weight: 400;
-}
-.textWrap .police,
-.textWrap .design {
-    line-height: 28px;
-}
-
-.textWrap .design {
-    margin-left: 3.75rem;
-}
-
-.growUp {
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 70px;
 }
