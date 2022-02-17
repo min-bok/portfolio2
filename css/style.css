@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 html {
@@ -13,11 +14,8 @@ html {
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     font-family: 'Pretendard-Regular';
-    background-color: aqua;
-
+    background-color: #fff;
 }
 
 /* hidden */
@@ -28,16 +26,29 @@ body {
 /* profile */
 
 #profile {
-    width: 100%;
-    height: 100%;
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* menuAndWrap */
+
+.menuAndWrap {
+    display: flex;
+    flex-direction: column;
 }
 
 /* hambegurBtn */
 
 .menu {
+    position: absolute;
     display: flex;
     align-items: center;
-    background-color: aquamarine;
+    top: 50px;
+    left: 50px;
 }
 
 .hambegurBtn {
@@ -64,11 +75,12 @@ body {
 /* navBtn */
 
 .navBtn {
+    position: absolute;
     display: flex;
     height: 80px;
     flex-direction: column;
-    background-color: blue;
     justify-content: space-between;
+    left: 50px;
 }
 
 .profileBtn {
@@ -90,13 +102,11 @@ body {
 .profileInfoWrap {
     display: flex;
     flex-direction: column;
-    background-color: pink;
     align-items: center;
 }
 
 .picandtextWrap {
     display: flex;
-    background-color: powderblue;
 }
 
 .profilePic {
@@ -135,11 +145,16 @@ body {
     padding-right: 26px;
 }
 
+.police {
+    padding-bottom: 10px;
+}
+
 .police b {
     padding-right: 10px;
 }
 
 .design {
+    margin-top: -10px;
     margin-left: 70px;
 }
 
@@ -156,10 +171,12 @@ body {
 /* contact */
 
 .contact {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: red;
     align-items: flex-end;
+    top: 50px;
+    right: 50px;
 }
 
 .contactText {
@@ -207,12 +224,6 @@ body {
 .phoneWrap::before {
     content: "Phone";
 }
-
-
-
-/* .gitHub {
-    font-size: 10px;
-} */
 
 .githubImg,
 .velogImg,
