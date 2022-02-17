@@ -15,12 +15,18 @@ html {
 
 body {
     font-family: 'Pretendard-Regular';
-    background-color: #fff;
 }
 
 /* hidden */
 .hidden {
     display: none;
+}
+
+/* pageWrap */
+#pageWrap {
+    display: flex;
+    width: 400vw;
+    height: 100vh;
 }
 
 /* profile */
@@ -32,6 +38,7 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
 
 /* menuAndWrap */
@@ -98,6 +105,19 @@ body {
     background-color: #fff;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+@keyframes expandBtn {
+    from {
+        width: 30px;
+    }
+    to {
+        width: 50px;
+    }
+}
+
+.expandBtn {
+    animation: expandBtn 0.3s linear both;
 }
 
 /* picture and text */
@@ -218,5 +238,13 @@ body {
 .phoneImg {
     width: 14px;
     height: 14px;
+    cursor: pointer;
+}
+
+.nextPageBtn {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    margin-top: 50px;
     cursor: pointer;
 }
