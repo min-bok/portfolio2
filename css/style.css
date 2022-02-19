@@ -24,6 +24,7 @@ body {
 
 /* pageWrap */
 #pageWrap {
+    position: relative;
     display: flex;
     width: 400vw;
     height: 100vh;
