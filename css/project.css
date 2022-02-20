@@ -1,20 +1,24 @@
 #project {
     position: absolute;
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    height: 90%;
     background-color: aquamarine;
+    align-self: center;
 }
 
-.containerOne {
-    width: 25vw;
+.containerOne,
+.containerThree {
+    width: 25%;
     height: 100%;
     margin-right: 10px;
     background-color: blue;
 }
 
-.containerTwo {
-    width: 25vw;
+.containerTwo,
+.containerFour {
+    width: 25%;
     height: 100%;
+    margin-right: 10px;
     background-color: pink;
 }
