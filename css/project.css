@@ -1,10 +1,18 @@
 #project {
     position: absolute;
     display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.projectWrap {
+    display: flex;
     width: 80vw;
     height: 90%;
-    background-color: aquamarine;
-    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .containerOne,
@@ -12,7 +20,7 @@
     width: 25%;
     height: 100%;
     margin-right: 10px;
-    background-color: blue;
+    background-color: #fff;
 }
 
 .imgOne,
@@ -30,4 +38,15 @@
     height: 100%;
     margin-right: 10px;
     background-color: pink;
+}
+
+.closeLine {
+    width: 20px;
+    height: 2px;
+    border-bottom: 2px solid #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.closeBtn {
 }
