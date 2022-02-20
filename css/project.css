@@ -15,6 +15,15 @@
     background-color: blue;
 }
 
+.imgOne,
+.imgTwo,
+.imgThree,
+.imgFour {
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
 .containerTwo,
 .containerFour {
     width: 25%;
