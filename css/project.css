@@ -47,7 +47,8 @@
     background-color: pink;
 }
 
-.projectOne {
+.projectOne,
+.projectTwo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +71,8 @@
     margin-bottom: 20px;
 }
 
-.projectOne img {
+.projectOne img,
+.projectTwo img {
     width: 170px;
     margin-bottom: 20px;
 }
