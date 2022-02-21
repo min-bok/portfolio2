@@ -1,26 +1,29 @@
 #projectWrap{
+    position: relative;
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: palegoldenrod;
     align-items: center;
     justify-content: center;
+    /* overflow: hidden; */
 }
 
 .projectCont {
-    display: flex;
-    width: 80vw;
-    height: 70%;
-    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
 }
 
 .projectOne,
+.projectThree {
+    width: 100%;
+    height: 100vh;
+    background-color: palegreen;
+}
 .projectTwo,
-.projectThree,
 .projectFours {
-    width: 200px;
-    height: 100%;
-    background-color: #fff;
-    /* border: 1px solid #000; */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    background-color: paleturquoise;
 }
