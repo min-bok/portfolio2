@@ -1,29 +1,20 @@
 #projectWrap{
-    position: relative;
+    position: absolute;
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: palegoldenrod;
+    /* background-color: paleturquoise; */
     align-items: center;
-    justify-content: center;
-    /* overflow: hidden; */
+    z-index: 999;
 }
 
 .projectCont {
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
-    background-color: pink;
+    background-color: palegoldenrod;
 }
 
-.projectOne,
-.projectThree {
-    width: 100%;
-    height: 100vh;
-    background-color: palegreen;
-}
-.projectTwo,
-.projectFours {
-    width: 100%;
-    height: 100vh;
-    background-color: paleturquoise;
+.closeBtn {
+    margin-left: 50px;
+    cursor: pointer;
 }
