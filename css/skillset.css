@@ -1,0 +1,53 @@
+#skillSet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.skillLev {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.levOneWrap,
+.levTwoWrap,
+.levThreeWrap,
+.levFourWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.levOneNum,
+.levTwoNum,
+.levThreeNum,
+.levFourNum {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.levOneText,
+.levTwoText,
+.levThreeText,
+.levFourText {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.skillList {
+    display: flex;
+    background-color: aquamarine;
+}
