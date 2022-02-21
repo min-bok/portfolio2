@@ -1,3 +1,5 @@
+const portfolioTitle = document.querySelector('.portfolioTitle');
+
 // profileBtnWrap
 const profileBtnWrap = document.querySelector('.profileBtnWrap');
 const profileBtn = document.querySelector('.profileBtn');
@@ -7,9 +9,15 @@ profileBtnText.classList.add('hidden');
 
 profileBtn.addEventListener('mouseover', function() {
     profileBtnText.classList.remove('hidden');
+    profileBtn.classList.add('expandBtn');
+    
 })
 profileBtn.addEventListener('mouseout', function() {
     profileBtnText.classList.add('hidden');
+    profileBtn.classList.remove('expandBtn');
+})
+profileBtn.addEventListener('click', function() {
+    portfolioTitle.innerText = 'Profile';
 })
 
 // strengthBtnWrap
@@ -27,6 +35,9 @@ strengthBtn.addEventListener('mouseout', function() {
     strengthBtnText.classList.add('hidden');
     strengthBtn.classList.remove('expandBtn');
 })
+strengthBtn.addEventListener('click', function() {
+    portfolioTitle.innerText = 'Strength';
+})
 
 // skillBtnWrap
 const skillBtnWrap = document.querySelector('.skillBtnWrap');
@@ -43,6 +54,9 @@ skillBtn.addEventListener('mouseout', function() {
     skillBtnText.classList.add('hidden');
     skillBtn.classList.remove('expandBtn');
 })
+skillBtn.addEventListener('click', function() {
+    portfolioTitle.innerText = 'Skill';
+})
 
 // projectBtnWrap
 const projectBtnWrap = document.querySelector('.projectBtnWrap');
@@ -58,4 +72,7 @@ projectBtn.addEventListener('mouseover', function() {
 projectBtn.addEventListener('mouseout', function() {
     projectBtnText.classList.add('hidden');
     projectBtn.classList.remove('expandBtn');
+})
+projectBtn.addEventListener('click', function() {
+    portfolioTitle.innerText = 'Project';
 })

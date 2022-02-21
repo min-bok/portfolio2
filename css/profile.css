@@ -23,10 +23,6 @@ body {
     display: none;
 }
 
-.hide {
-    visibility: hidden;
-}
-
 /* pageWrap */
 #pageWrap {
     position: relative;
@@ -116,13 +112,4 @@ body {
 .profileIntroduce {
     margin-top: 30px;
     font-weight: 700;
-}
-
-@keyframes moveNext {
-    from {
-        margin-left: 0;
-    }
-    to {
-        margin-left: -100vw;
-    }
 }
