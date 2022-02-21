@@ -4,22 +4,34 @@
     width: 100%;
     height: 100%;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .projectWrap {
     display: flex;
-    width: 80vw;
+    width: 75vw;
     height: 90%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.5)
+    margin-left: 50px;
+}
+
+.nonRoleCont {
+    width: 5%;
+    border-right: 1px solid #000;
+    background-color: #fff;
 }
 
 .containerOne,
+.containerTwo,
 .containerThree {
     width: 25%;
     height: 100%;
-    margin-right: 10px;
+    border-right: 1px solid #000;
+    background-color: #fff;
+}
+
+.containerFour {
+    width: 25%;
+    height: 100%;
     background-color: #fff;
 }
 
@@ -32,16 +44,8 @@
     background-color: aquamarine;
 }
 
-.containerTwo,
-.containerFour {
-    width: 25%;
-    height: 100%;
-    margin-right: 10px;
-    background-color: pink;
-}
-
 .closeLine {
-    width: 20px;
+    width: 40px;
     height: 2px;
     border-bottom: 2px solid #000;
     margin-left: 10px;
@@ -49,4 +53,7 @@
 }
 
 .closeBtn {
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
 }
