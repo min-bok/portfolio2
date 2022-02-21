@@ -11,6 +11,7 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -115,4 +116,13 @@ body {
 .profileIntroduce {
     margin-top: 30px;
     font-weight: 700;
+}
+
+@keyframes moveNext {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -100vw;
+    }
 }

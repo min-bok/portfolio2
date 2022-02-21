@@ -3,9 +3,13 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    /* background-color: red; */
+    background-color: #fff;
     align-items: center;
     justify-content: center;
+}
+
+.strengthWrapOne {
+    margin-bottom: 50px;
 }
 
 .strengthOneTitle, 
