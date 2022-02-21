@@ -1,8 +1,8 @@
 #projectWrap{
     position: absolute;
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
-    background-color: paleturquoise;
+    background-color: rgba(0, 0, 0, 0.2);
     align-items: center;
     z-index: 999;
 }
@@ -24,7 +24,7 @@
     display: flex;
     width: 80vw;
     height: 100vh;
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     justify-content: space-between;
 }
 
@@ -34,37 +34,37 @@
 }
 
 .projectOne,
-.projectThree {
-    width: 25%;
-    height: 100%;
-    background-color: palegreen;
-}
-
 .projectTwo,
+.projectThree,
 .projectFour {
+    display: flex;
     width: 25%;
     height: 100%;
-    background-color: pink;
-}
-
-.projectOne,
-.projectTwo {
-    display: flex;
+    background-color: #fff;
     align-items: center;
     justify-content: center;
 }
 
-.oneNum {
+.projectOne,
+.projectTwo,
+.projectThree {
+    margin-right: 3px;
+}
+
+.oneNum,
+.twoNum {
     font-size: 72px;
     margin-bottom: 50px;
 }
 
-.oneTitle {
+.oneTitle,
+.twoTitle {
     font-size: 14px;
     font-weight: 600;
 }
 
-.oneTeam {
+.oneTeam,
+.twoTeam {
     font-size: 12px;
     font-weight: 400;
     margin-top: 5px;
@@ -77,19 +77,22 @@
     margin-bottom: 20px;
 }
 
-.oneDate {
+.oneDate,
+.twoDate {
     font-size: 10px;
     font-weight: 400;
 }
 
-.oneSkill {
+.oneSkill,
+.twoSkill {
     font-size: 10px;
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.oneInfo {
+.oneInfo,
+.twoInfo {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 50px;
