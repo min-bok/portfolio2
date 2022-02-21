@@ -1,59 +1,26 @@
-#project {
-    position: absolute;
+#projectWrap{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
 }
 
-.projectWrap {
+.projectCont {
     display: flex;
-    width: 75vw;
-    height: 90%;
-    margin-left: 50px;
+    width: 80vw;
+    height: 70%;
+    justify-content: space-between;
 }
 
-.nonRoleCont {
-    width: 5%;
-    border-right: 1px solid #000;
-    background-color: #fff;
-}
-
-.containerOne,
-.containerTwo,
-.containerThree {
-    width: 25%;
-    height: 100%;
-    border-right: 1px solid #000;
-    background-color: #fff;
-}
-
-.containerFour {
-    width: 25%;
+.projectOne,
+.projectTwo,
+.projectThree,
+.projectFours {
+    width: 200px;
     height: 100%;
     background-color: #fff;
-}
-
-.imgOne,
-.imgTwo,
-.imgThree,
-.imgFour {
-    width: 150px;
-    height: 100px;
-    background-color: aquamarine;
-}
-
-.closeLine {
-    width: 40px;
-    height: 2px;
-    border-bottom: 2px solid #000;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.closeBtn {
-    font-weight: 700;
-    font-size: 12px;
-    cursor: pointer;
+    /* border: 1px solid #000; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
