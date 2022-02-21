@@ -1,20 +1,51 @@
 #projectWrap{
     position: absolute;
     display: flex;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
-    /* background-color: paleturquoise; */
+    background-color: paleturquoise;
     align-items: center;
     z-index: 999;
+    right: 0;
+}
+
+.moveProject {
+    animation: moveProject 1s linear both;
 }
 
 .projectCont {
+    display: flex;
     width: 80vw;
     height: 100vh;
     background-color: palegoldenrod;
+    justify-content: space-between;
 }
 
 .closeBtn {
     margin-left: 50px;
     cursor: pointer;
+}
+
+.projectOne,
+.projectThree {
+    width: 25%;
+    height: 100%;
+    background-color: palegreen;
+}
+
+.projectTwo,
+.projectFour {
+    width: 25%;
+    height: 100%;
+    background-color: pink;
+}
+
+@keyframes moveProject {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 100;
+    }
 }

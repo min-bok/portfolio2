@@ -59,20 +59,20 @@ skillBtn.addEventListener('click', function() {
 })
 
 // projectBtnWrap
-const projectBtnWrap = document.querySelector('.projectBtnWrap');
-const projectBtn = document.querySelector('.projectBtn');
-const projectBtnText= document.querySelector('.projectBtnText');
+// const projectBtnWrap = document.querySelector('.projectBtnWrap');
+// const projectBtn = document.querySelector('.projectBtn');
+// const projectBtnText= document.querySelector('.projectBtnText');
 
-projectBtnText.classList.add('hidden');
+// projectBtnText.classList.add('hidden');
 
-projectBtn.addEventListener('mouseover', function() {
-    projectBtnText.classList.remove('hidden');
-    projectBtn.classList.add('expandBtn');
-})
-projectBtn.addEventListener('mouseout', function() {
-    projectBtnText.classList.add('hidden');
-    projectBtn.classList.remove('expandBtn');
-})
-projectBtn.addEventListener('click', function() {
-    portfolioTitle.innerText = 'Project';
-})
+// projectBtn.addEventListener('mouseover', function() {
+//     projectBtnText.classList.remove('hidden');
+//     projectBtn.classList.add('expandBtn');
+// })
+// projectBtn.addEventListener('mouseout', function() {
+//     projectBtnText.classList.add('hidden');
+//     projectBtn.classList.remove('expandBtn');
+// })
+// projectBtn.addEventListener('click', function() {
+//     portfolioTitle.innerText = 'Project';
+// })

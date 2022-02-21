@@ -1,3 +1,0 @@
-strengthBtn.addEventListener('click', function() {
-    
-})

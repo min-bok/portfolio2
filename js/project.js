@@ -1,6 +1,6 @@
-const project = document.querySelector('#project');
-const closeBtn = document.querySelector('.closeBtn');
+const hamburgerBtn = document.querySelector('.hamburgerBtn');
+const projectWrap = document.querySelector('#projectWrap');
 
-closeBtn.addEventListener('click', function() {
-    project.classList.add('hide');
-})
+hamburgerBtn.addEventListener('click', function() {
+    projectWrap.classList.add('moveProject');
+});
