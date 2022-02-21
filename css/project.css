@@ -1,16 +1,23 @@
 #projectWrap{
     position: absolute;
-    display: flex;
     width: 90vw;
     height: 100vh;
     background-color: paleturquoise;
     align-items: center;
     z-index: 999;
-    right: 0;
+}
+
+@keyframes moveProject {
+    from {
+        right: 0;
+    }
+    to {
+        right: 100;
+    }
 }
 
 .moveProject {
-    animation: moveProject 1s linear both;
+    animation: moveProject 0.3s linear both;
 }
 
 .projectCont {
@@ -38,14 +45,4 @@
     width: 25%;
     height: 100%;
     background-color: pink;
-}
-
-@keyframes moveProject {
-    from {
-        right: 0;
-    }
-
-    to {
-        right: 100;
-    }
 }
