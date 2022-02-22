@@ -52,19 +52,22 @@
 }
 
 .oneNum,
-.twoNum {
+.twoNum,
+.threeNum {
     font-size: 72px;
     margin-bottom: 50px;
 }
 
 .oneTitle,
-.twoTitle {
+.twoTitle,
+.threeTitle {
     font-size: 14px;
     font-weight: 600;
 }
 
 .oneTeam,
-.twoTeam {
+.twoTeam,
+.threeTeam {
     font-size: 12px;
     font-weight: 400;
     margin-top: 5px;
@@ -72,19 +75,22 @@
 }
 
 .projectOne img,
-.projectTwo img {
+.projectTwo img,
+.projectThree img {
     width: 170px;
     margin-bottom: 20px;
 }
 
 .oneDate,
-.twoDate {
+.twoDate,
+.threeDate {
     font-size: 10px;
     font-weight: 400;
 }
 
 .oneSkill,
-.twoSkill {
+.twoSkill,
+.threeSkill {
     font-size: 10px;
     font-weight: 400;
     margin-top: 5px;
@@ -92,7 +98,8 @@
 }
 
 .oneInfo,
-.twoInfo {
+.twoInfo,
+.threeInfo {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 50px;
