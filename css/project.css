@@ -109,19 +109,60 @@
 #project {
     width: 600vw;
     height: 100vh;
-    background-color: antiquewhite;
-    z-index: 999;
-}
-
-.projectWrap {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: aquamarine;
+    /* background-color: antiquewhite; */
 }
 
 #projectOne {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: powderblue;
+    /* background-color: powderblue; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectOneTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.projectOneDate {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.projectOneTeam {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.projectOneDemo {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.projectOneAddressTitle {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.projectOneAddress {
+    font-size: 12px;
+}
+
+.projectOneInfo {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projectOneWrap iframe {
+    background-color: pink;
 }
