@@ -1,4 +1,4 @@
-#projectWrap{
+/* #projectWrap{
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -24,11 +24,11 @@
     display: flex;
     width: 80vw;
     height: 100vh;
-    /* background-color: palegoldenrod; */
+    background-color: palegoldenrod;
     justify-content: space-between;
-}
+} */
 
-.closeBtn {
+/* .closeBtn {
     margin-left: 50px;
     cursor: pointer;
 }
@@ -104,4 +104,23 @@
     font-weight: 400;
     margin-bottom: 50px;
     line-height: 18px;
+} */
+
+#project {
+    width: 600vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.projectWrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#projectOne {
+    width: 100vw;
+    height: 100vh;
+    background-color: powderblue;
 }
