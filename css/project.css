@@ -1,10 +1,11 @@
 #project {
+    display: flex;
     width: 600vw;
     height: 100vh;
-    /* background-color: antiquewhite; */
 }
 
-#projectOne {
+#projectOne,
+#projectTwo {
     position: relative;
     display: flex;
     width: 100vw;
@@ -15,29 +16,38 @@
     justify-content: center;
 }
 
-.projectOneWrap {
+#projectTwo {
+    background-color: palegoldenrod;
+}
+
+.projectOneWrap,
+.projectTwoWrap {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.projectOneDemoWrap {
+.projectOneDemoWrap,
+.projectTwoDemoWrap {
     position: relative;
     display: flex;
 }
 
-.projectOneTitle {
+.projectOneTitle,
+.projectTwoTitle {
     font-size: 18px;
     font-weight: 700;
 }
 
-.projectOneTitle span {
+.projectOneTitle span,
+.projectTwoTitle span {
     font-size: 10px;
     font-weight: 400;
     margin-left: 5px;
 }
 
-.projectOneDemo {
+.projectOneDemo,
+.projectTwoDemo {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -47,33 +57,49 @@
     z-index: 999;
 }
 
-.projectOneTeam {
+.projectOneTeam,
+.projectTwoTeam {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.projectOneDate {
+.projectOneDate,
+.projectTwoDate {
     font-size: 10px;
 }
 
-.projectOneInfo {
+.projectOneInfo,
+.projectTwoInfo {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.projectOneWrap iframe {
+.projectOneWrap iframe,
+.projectTwoWrap iframe {
     z-index: 999;
 }
 
-.projectOneNextBtn {
+.projectOneNextBtn,
+.projectTwoNextBtn {
     position: absolute;
     background-color: transparent;
     border: none;
     font-size: 14px;
     cursor: pointer;
     right: 50px;
+    bottom: 50px;
+    z-index: 999;
+}
+
+.projectTwoPrevBtn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    left: 50px;
     bottom: 50px;
     z-index: 999;
 }
