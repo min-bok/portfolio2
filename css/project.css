@@ -7,7 +7,9 @@
 #projectOne,
 #projectTwo,
 #projectThree,
-#projectFour {
+#projectFour,
+#projectFive,
+#projectSix {
     position: relative;
     display: flex;
     width: 100vw;
@@ -30,10 +32,20 @@
     background-color: pink;
 }
 
+#projectFive {
+    background-color: palevioletred;
+}
+
+#projectSix {
+    background-color: paleturquoise;
+}
+
 .projectOneWrap,
 .projectTwoWrap,
 .projectThreeWrap,
-.projectFourWrap {
+.projectFourWrap,
+.projectFiveWrap,
+.projectSixWrap {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -42,7 +54,9 @@
 .projectOneDemoWrap,
 .projectTwoDemoWrap,
 .projectThreeWrap,
-.projectFourDemoWrap {
+.projectFourDemoWrap,
+.projectFiveDemoWrap,
+.projectSixDemoWrap {
     position: relative;
     display: flex;
 }
@@ -50,7 +64,9 @@
 .projectOneTitle,
 .projectTwoTitle,
 .projectThreeTitle,
-.projectFourTitle {
+.projectFourTitle,
+.projectFiveTitle,
+.projectSixTitle {
     font-size: 18px;
     font-weight: 700;
 }
@@ -58,7 +74,9 @@
 .projectOneTitle span,
 .projectTwoTitle span,
 .projectThreeTitle span,
-.projectFourTitle span {
+.projectFourTitle span,
+.projectFiveTitle span,
+.projectSixTitle span {
     font-size: 10px;
     font-weight: 400;
     margin-left: 5px;
@@ -67,7 +85,9 @@
 .projectOneDemo,
 .projectTwoDemo,
 .projectThreeDemo,
-.projectFourDemo {
+.projectFourDemo,
+.projectFiveDemo,
+.projectSixDemo {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -80,7 +100,9 @@
 .projectOneTeam,
 .projectTwoTeam,
 .projectThreeTeam,
-.projectFourTeam {
+.projectFourTeam,
+.projectFiveTeam,
+.projectSixTeam {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 4px;
@@ -89,14 +111,18 @@
 .projectOneDate,
 .projectTwoDate,
 .projectThreeDate,
-.projectFourDate {
+.projectFourDate,
+.projectFiveDate,
+.projectSixDate {
     font-size: 10px;
 }
 
 .projectOneInfo,
 .projectTwoInfo,
 .projectThreeInfo,
-.projectFourInfo {
+.projectFourInfo,
+.projectFiveInfo,
+.projectSixInfo {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -105,14 +131,17 @@
 .projectOneWrap iframe,
 .projectTwoWrap iframe,
 .projectThreeWrap iframe,
-.projectFourWrap iframe {
+.projectFourWrap iframe,
+.projectFiveWrap iframe,
+.projectSixWrap iframe {
     z-index: 999;
 }
 
 .projectOneNextBtn,
 .projectTwoNextBtn,
 .projectThreeNextBtn,
-.projectFourNextBtn {
+.projectFourNextBtn,
+.projectFiveNextBtn {
     position: absolute;
     background-color: transparent;
     border: none;
@@ -125,7 +154,9 @@
 
 .projectTwoPrevBtn,
 .projectThreePrevBtn,
-.projectFourPrevBtn {
+.projectFourPrevBtn,
+.projectFivePrevBtn,
+.projectSixPrevBtn {
     position: absolute;
     background-color: transparent;
     border: none;
