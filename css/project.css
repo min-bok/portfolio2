@@ -6,7 +6,8 @@
 
 #projectOne,
 #projectTwo,
-#projectThree {
+#projectThree,
+#projectFour {
     position: relative;
     display: flex;
     width: 100vw;
@@ -25,9 +26,14 @@
     background-color: palegreen;
 }
 
+#projectFour {
+    background-color: pink;
+}
+
 .projectOneWrap,
 .projectTwoWrap,
-.projectThreeWrap {
+.projectThreeWrap,
+.projectFourWrap {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -35,21 +41,24 @@
 
 .projectOneDemoWrap,
 .projectTwoDemoWrap,
-.projectThreeWrap {
+.projectThreeWrap,
+.projectFourDemoWrap {
     position: relative;
     display: flex;
 }
 
 .projectOneTitle,
 .projectTwoTitle,
-.projectThreeTitle {
+.projectThreeTitle,
+.projectFourTitle {
     font-size: 18px;
     font-weight: 700;
 }
 
 .projectOneTitle span,
 .projectTwoTitle span,
-.projectThreeTitle span {
+.projectThreeTitle span,
+.projectFourTitle span {
     font-size: 10px;
     font-weight: 400;
     margin-left: 5px;
@@ -57,7 +66,8 @@
 
 .projectOneDemo,
 .projectTwoDemo,
-.projectThreeDemo {
+.projectThreeDemo,
+.projectFourDemo {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -69,7 +79,8 @@
 
 .projectOneTeam,
 .projectTwoTeam,
-.projectThreeTeam {
+.projectThreeTeam,
+.projectFourTeam {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 4px;
@@ -77,13 +88,15 @@
 
 .projectOneDate,
 .projectTwoDate,
-.projectThreeDate {
+.projectThreeDate,
+.projectFourDate {
     font-size: 10px;
 }
 
 .projectOneInfo,
 .projectTwoInfo,
-.projectThreeInfo {
+.projectThreeInfo,
+.projectFourInfo {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -91,13 +104,15 @@
 
 .projectOneWrap iframe,
 .projectTwoWrap iframe,
-.projectThreeWrap iframe {
+.projectThreeWrap iframe,
+.projectFourWrap iframe {
     z-index: 999;
 }
 
 .projectOneNextBtn,
 .projectTwoNextBtn,
-.projectThreeNextBtn {
+.projectThreeNextBtn,
+.projectFourNextBtn {
     position: absolute;
     background-color: transparent;
     border: none;
@@ -109,7 +124,8 @@
 }
 
 .projectTwoPrevBtn,
-.projectThreePrevBtn {
+.projectThreePrevBtn,
+.projectFourPrevBtn {
     position: absolute;
     background-color: transparent;
     border: none;
