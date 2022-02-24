@@ -26,7 +26,11 @@
     left: 50px;
 }
 
-.hamburgerBtn {
+.frontend {
+    font-size: 10px;
+}
+
+/* .hamburgerBtn {
     display: flex;
     flex-direction: column;
     width: 24px;
@@ -43,7 +47,7 @@
     height: 2px;
     background-color: #000;
     z-index: 999;
-}
+} */
 
 .rowLine {
     width: 30px;

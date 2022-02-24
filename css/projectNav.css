@@ -1,37 +1,5 @@
-#projectNav {
-    position: fixed;
-    width: 30vw;
-    height: 100vh;
-    background-color: palegreen;
-    top: 0;
-    left: -515px;
-    z-index: 900;
-}
-
-@keyframes projectNavOn {
-    from {
-        left: -515px;
-    }
-
-    to {
-        left: -50px
-    }
-}
-
-@keyframes projectNavOff {
-    from {
-        left: -50px;
-    }
-
-    to {
-        left: -515px
-    }
-}
-
-.projectNavOn {
-    animation: projectNavOn 0.5s linear both;
-}
-
-.projectNavOff {
-    animation: projectNavOff 0.5s linear both;
+.projectNav {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
 }
