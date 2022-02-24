@@ -11,11 +11,11 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
-    width: 400vw;
+    width: 300vw;
     height: 100vh;
     font-family: 'Pretendard-Regular';
 }
