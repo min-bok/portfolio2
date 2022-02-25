@@ -14,9 +14,8 @@
     width: 60vw;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    /* background-color: aqua; */
+    margin-top: 0.625rem;
+    margin-bottom: 3.125rem;
 }
 
 .levOneWrap,
@@ -27,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 16px;
+    line-height: 1rem;
 }
 
 .levOneNum,
@@ -35,8 +34,8 @@
 .levThreeNum,
 .levFourNum {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     font-weight: 700;
     font-size: 1rem;
@@ -49,8 +48,8 @@
 .levTwoText,
 .levThreeText,
 .levFourText {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 0.75rem;
+    margin-top: 0.625rem;
     text-align: center;
 }
 
@@ -64,5 +63,5 @@
 .skillListTwo p,
 .skillListThree p,
 .skillListFour p {
-    line-height: 36px;
+    line-height: 2.25rem;
 }
