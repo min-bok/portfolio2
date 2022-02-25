@@ -9,12 +9,12 @@
 }
 
 .strengthWrapOne {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .strengthOneTitle, 
 .strengthTwoTitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -22,7 +22,7 @@
 .strengthOneText,
 .strengthTwoText {
     font-size: 1rem;
-    line-height: 24px;
+    line-height: 1.5rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
