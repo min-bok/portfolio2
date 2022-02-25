@@ -14,6 +14,22 @@ html {
     overflow: hidden;
 }
 
+@media all and (min-width: 1980px) {
+    html {
+        font-size: 24px;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width: 768px) {
+    html {
+        font-size: 12px;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+}
+
 body {
     width: 300vw;
     height: 100vh;
