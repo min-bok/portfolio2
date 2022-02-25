@@ -47,7 +47,7 @@
 .projectFourTitle,
 .projectFiveTitle,
 .projectSixTitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -57,9 +57,9 @@
 .projectFourTitle span,
 .projectFiveTitle span,
 .projectSixTitle span {
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 400;
-    margin-left: 5px;
+    margin-left: 0.313rem;
 }
 
 .projectOneDemo,
@@ -69,8 +69,8 @@
 .projectFiveDemo,
 .projectSixDemo {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     background-color: black;
     right: 0;
     cursor: pointer;
@@ -83,9 +83,9 @@
 .projectFourTeam,
 .projectFiveTeam,
 .projectSixTeam {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 4px;
+    font-size: 0.75rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.25rem;
 }
 
 .projectOneDate,
@@ -94,7 +94,7 @@
 .projectFourDate,
 .projectFiveDate,
 .projectSixDate {
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .projectOneInfo,
@@ -103,10 +103,10 @@
 .projectFourInfo,
 .projectFiveInfo,
 .projectSixInfo {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 18px;
+    font-size: 0.75rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.125rem;
 }
 
 .projectOneWrap iframe,
@@ -126,10 +126,10 @@
     position: absolute;
     background-color: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     cursor: pointer;
-    right: 50px;
-    bottom: 50px;
+    right: 3.125rem;
+    bottom: 3.125rem;
     z-index: 999;
 }
 
@@ -141,9 +141,9 @@
     position: absolute;
     background-color: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     cursor: pointer;
-    left: 50px;
-    bottom: 50px;
+    left: 3.125rem;
+    bottom: 3.125rem;
     z-index: 999;
 }
