@@ -118,6 +118,12 @@
     z-index: 999;
 }
 
+.projectOneWrap iframe {
+    position: absolute;
+    transform: scale(0.2);
+    opacity: 0.3;
+}
+
 .projectOneNextBtn,
 .projectTwoNextBtn,
 .projectThreeNextBtn,
