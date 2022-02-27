@@ -11,10 +11,10 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
-/* @media all and (min-width: 1980px) {
+@media all and (min-width: 1980px) {
     html {
         font-size: 24px;
         scroll-behavior: smooth;
@@ -28,7 +28,7 @@ html {
         scroll-behavior: smooth;
         overflow: hidden;
     }
-} */
+}
 
 body {
     width: 300vw;
