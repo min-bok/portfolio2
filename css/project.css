@@ -117,6 +117,8 @@
 .projectFourWrap iframe,
 .projectFiveWrap iframe,
 .projectSixWrap iframe {
+    width: 35rem;
+    height: 19.688rem;
     z-index: 999;
 }
 
