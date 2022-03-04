@@ -71,12 +71,27 @@
 .projectFiveDemo,
 .projectSixDemo {
     position: absolute;
-    width: 1.875rem;
-    height: 1.875rem;
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 5px;
     right: 0;
     cursor: pointer;
     z-index: 999;
+}
+
+.projectOneDemo:hover,
+.projectTwoDemo:hover,
+.projectThreeDemo:hover,
+.projectFourDemo:hover,
+.projectFiveDemo:hover,
+.projectSixDemo:hover {
+    background-color: #dbf1f8;
 }
 
 .projectOneTeam,
