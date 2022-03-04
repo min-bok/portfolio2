@@ -111,12 +111,12 @@
     line-height: 1.125rem;
 }
 
-.projectOneWrap img,
-.projectTwoWrap img,
-.projectThreeWrap img,
-.projectFourWrap img,
-.projectFiveWrap img,
-.projectSixWrap img {
+.projectOneWrap iframe,
+.projectTwoWrap iframe,
+.projectThreeWrap iframe,
+.projectFourWrap iframe,
+.projectFiveWrap iframe,
+.projectSixWrap iframe {
     width: 35rem;
     height: 17rem;
     z-index: 999;
