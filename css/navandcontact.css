@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
     z-index: 100;
-    /* background-color: antiquewhite; */
 }
 
 /* menuAndWrap */
@@ -16,7 +15,7 @@
     justify-content: center;
 }
 
-/* hamburgerBtn */
+/* 좌측 상단 */
 
 .menu {
     position: absolute;
@@ -157,4 +156,15 @@
     width: 0.875rem;
     height: 0.875rem;
     cursor: pointer;
+}
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    .menu {
+        display: none;
+    }
+
+    .navBtn {
+        display: none;
+    }
 }
