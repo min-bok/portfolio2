@@ -6,6 +6,7 @@
     background-color: #fff;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .strengthWrapOne {
