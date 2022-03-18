@@ -1,0 +1,49 @@
+#footer {
+    padding-top: 1.25rem;
+    background-color: #E2D3CD;
+}
+
+.contactWave {
+    width: 100%;
+    height: 6.677rem;
+    background-image: url(../img/ContactWave.svg);
+    background-color: #E2D3CD;
+    background-size: 100% 100%;
+    margin-bottom: -2px;
+}
+
+.contactBg {
+    position: relative;
+    display: flex;
+    height: 205px;
+    background-color: #A49B89;
+    justify-content: center;
+}
+
+.contactWrap {
+    position: absolute;
+    display: flex;
+    width: 113.938rem;
+    align-items: baseline;
+    justify-content: space-between;
+    bottom: 2.749rem;
+}
+
+.contactText {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ECE1DC;
+}
+
+.contactIcon {
+    display: flex;
+    width: 13.813rem;
+    height: 2.064rem;
+    justify-content: space-between;
+}
+
+.contactIcon div {
+    width: 2rem;
+    height: 2rem;
+    background-color: pink;
+}
