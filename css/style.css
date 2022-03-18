@@ -65,3 +65,22 @@ body {
     margin-top: 6.25rem;
     margin-left: 6.25rem;
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    .title {
+        width: 40rem;
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-top: 12rem;
+    }    
+}
+
+@media all and (max-width: 374px){
+    .title {
+        width: 35rem;
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-top: 12rem;
+    }    
+}

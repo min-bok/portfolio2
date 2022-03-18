@@ -1,5 +1,36 @@
-/**Mobile L 425X481**/
-@media all and (max-width: 426px){
+@media all and (min-width: 390px){
+    #nav {
+        display: block;
+        position: absolute;
+        width: 83.33333333333%;
+        height: 100vh;
+        background-color: transparent;
+        overflow: hidden;
+        right: 0;
+    }
+
+    .hide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+        transition: 1s;
+        right: -45.25rem;
+    }
+
+    .show {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+        /* background-color: #A49B89; */
+        transition: 1s;
+        right: 0;
+    }
+
+}
+
+@media all and (max-width: 390px){
     #nav {
         display: block;
         position: absolute;

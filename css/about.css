@@ -33,3 +33,57 @@
 .aboutTextOne {
     margin-bottom: 3.813rem;
 }
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    .aboutTitle {
+        margin-bottom: 6.25rem;
+    }
+
+    .mobileBlock {
+        display: block;
+    }
+
+    .aboutTextWrap {
+        width: 40rem;
+        margin: 0 auto;
+        padding-bottom: 20.625rem;
+        /* background-color: palegreen; */
+    }
+
+    .aboutTextTitleOne,
+    .aboutTextTitleTwo {
+        font-size: 1.75rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .aboutTextOne,
+    .aboutTextTwo {
+        font-size: 1.5rem;
+        line-height: 2.75rem;
+    }
+
+    .aboutTextOne {
+        margin-bottom: 6rem;
+    }
+}
+
+@media all and (max-width: 374px){
+    .aboutTextWrap {
+        width: 35rem;
+        margin: 0 auto;
+        padding-bottom: 20.625rem;
+    }
+
+    .aboutTextTitleOne,
+    .aboutTextTitleTwo {
+        font-size: 1.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .aboutTextOne,
+    .aboutTextTwo {
+        font-size: 1.25rem;
+        line-height: 2.75rem;
+    }
+}

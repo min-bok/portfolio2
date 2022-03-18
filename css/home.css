@@ -122,6 +122,7 @@
 /**Mobile L 425X481**/
 @media all and (max-width: 426px){
     #home {
+        width: 100vw;
         padding-top: 9.5rem;
     }
     
