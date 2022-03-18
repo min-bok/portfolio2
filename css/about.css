@@ -1,0 +1,35 @@
+#about {
+    width: 100vw;
+    height: auto;
+    background-color: #ECE1DC;
+}
+
+.aboutTitle {
+    margin-bottom: 10.563rem;
+}
+
+.aboutTextWrap {
+    width: 71.625rem;
+    margin: 0 auto;
+    padding-bottom: 19.5rem;
+}
+
+.aboutTextTitleOne,
+.aboutTextTitleTwo {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #0F0F0F;
+    margin-bottom: 2.813rem;
+}
+
+.aboutTextOne,
+.aboutTextTwo {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #0F0F0F;
+    line-height: 3.125rem;
+}
+
+.aboutTextOne {
+    margin-bottom: 3.813rem;
+}
