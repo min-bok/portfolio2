@@ -61,6 +61,7 @@
 @media all and (max-width: 426px){
     #header {
         height: 9.5rem;
+        z-index: 10;
     }
 
     .menuWrap {
