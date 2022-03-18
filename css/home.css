@@ -1,0 +1,17 @@
+#home {
+
+}
+
+.homeCont {
+    width: 100vw;
+    height: 50.625rem;
+    background-color: pink;
+    /* background-color: #E2D3CD; */
+}
+
+.homeWave {
+    width: 100vw;
+    height: 6.688rem;
+    background-image: url(../img/homeWave.svg);
+    background-size: 100% 100%;
+}
