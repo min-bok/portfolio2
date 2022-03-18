@@ -3,6 +3,8 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,45 @@
 
 html {
     font-size: 16px;
+    /* overflow: hidden; */
 }
 
-body {}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media all and (min-width: 2100px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 1920px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1919px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    html {
+        font-size: 8px;
+    }
+}

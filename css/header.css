@@ -1,4 +1,5 @@
 #header {
+    position: fixed;
     display: flex;
     width: 100vw;
     height: 7.5rem;
@@ -54,4 +55,50 @@
 
 .menuContact {
 
+}
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #header {
+        height: 9.5rem;
+    }
+
+    .menuWrap {
+        display: none;
+    }
+
+    .hamburger {
+        margin-right: 3.5rem;
+        z-index: 999;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 2px;
+        background-color: #A49B89;
+        display: block;
+        margin: 8px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50%;
+      }
+
+    .hamburger.is-active .line:nth-child(2) {
+        opacity: 0;
+      }
+      
+    .hamburger.is-active .line:nth-child(1) {
+      -webkit-transform: translateY(10px) rotate(45deg);
+      -ms-transform: translateY(10px) rotate(45deg);
+      -o-transform: translateY(10px) rotate(45deg);
+      transform: translateY(10px) rotate(45deg);
+    }
+    
+    .hamburger.is-active .line:nth-child(3) {
+      -webkit-transform: translateY(-10px) rotate(-45deg);
+      -ms-transform: translateY(-10px) rotate(-45deg);
+      -o-transform: translateY(-10px) rotate(-45deg);
+      transform: translateY(-10px) rotate(-45deg);
+    }
 }

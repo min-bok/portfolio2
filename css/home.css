@@ -1,12 +1,13 @@
 #home {
-
+    padding-top: 7.5rem;
 }
 
 .homeCont {
+    display: flex;
     width: 100vw;
     height: 50.625rem;
-    background-color: pink;
-    /* background-color: #E2D3CD; */
+    background-color: #E2D3CD;
+    align-items: center;
 }
 
 .homeWave {
@@ -14,4 +15,102 @@
     height: 6.688rem;
     background-image: url(../img/homeWave.svg);
     background-size: 100% 100%;
+    margin-top: -2px;
+}
+
+.homeImg {
+    width: 56.991rem;
+    height: 43.048rem;
+    background-image: url(../img/homeImg.png);
+    background-size: 100% 100%;
+    margin-left: 0.688rem;
+}
+
+.homeTextWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0F0F0F;
+    margin-left: 0.196rem;
+}
+
+.homeTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2.625rem;
+}
+
+.homeTitleBold {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.homeNameandBirthWrap {
+    display: flex;
+    width: 32.563rem;
+    justify-content: space-between;
+}
+
+.homeNameWrap,
+.homeBirthWrap,
+.homePhoneWrap,
+.homePlaceWrap,
+.homeEmailWrap,
+.homeDegreeWrap {
+    display: flex;
+    align-items: baseline;
+}
+
+.homeNameTitle,
+.homeBirthTitle,
+.homePhoneTitle,
+.homePlaceTitle,
+.homeEmailTitle {
+    margin-bottom: 1.813rem;
+}
+
+.homeNameTitle,
+.homeBirthTitle,
+.homePhoneTitle,
+.homePlaceTitle,
+.homeEmailTitle,
+.homeDegreeTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #A49B89;
+}
+
+.homeName,
+.homeBirth,
+.homePhone,
+.homePlace,
+.homeEmail,
+.homeDegreeTextWrap {
+    font-size: 1.313rem;
+    font-weight: 400;
+    color: #0F0F0F;
+}
+
+.homeName,
+.homeBirth {
+    margin-left: 2.688rem;
+}
+
+.homePhone {
+    margin-left: 2.25rem;
+}
+
+.homePlace,
+.homeEmail {
+    margin-left: 3.063rem;
+}
+
+.homeDegreeTextWrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.625rem;
+}
+
+.homeDegreeDesign {
+    margin-top: 1.375rem;
 }
