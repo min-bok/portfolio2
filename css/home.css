@@ -18,6 +18,10 @@
     margin-top: -2px;
 }
 
+.homeTitleMobile {
+    display: none;
+}
+
 .homeImg {
     width: 56.991rem;
     height: 43.048rem;
@@ -113,4 +117,123 @@
 
 .homeDegreeDesign {
     margin-top: 1.375rem;
+}
+
+/**Mobile L 425X481**/
+@media all and (max-width: 426px){
+    #home {
+        padding-top: 9.5rem;
+    }
+    
+    .homeCont {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 70.676rem;
+        background-color: #E2D3CD;
+        align-items: center;
+    }
+
+    .homeWave {
+        width: 100vw;
+        height: 6.688rem;
+        background-image: url(../img/homeWave.svg);
+        background-size: 100% 100%;
+        margin-top: -2px;
+    }
+
+    .homeTitleMobile {
+        display: block;
+        margin-top: 4.125rem;
+        margin-bottom: 2.25rem;
+        font-size: 1.75rem;
+    }
+
+    .homeTitleBoldMobile {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .homeImg {
+        width: 35.875rem;
+        height: 27.098rem;
+        background-image: url(../img/homeImg.png);
+        background-size: 100% 100%;
+    }
+
+    .homeTextWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #0F0F0F;
+    }
+    
+    .homeTitle {
+        display: none;
+    }
+
+    .homeNameandBirthWrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeNameTitle,
+    .homeBirthTitle,
+    .homePhoneTitle,
+    .homePlaceTitle,
+    .homeEmailTitle {
+        margin-bottom: 1.75rem;
+    }
+
+    .homeNameTitle,
+    .homeBirthTitle,
+    .homePhoneTitle,
+    .homePlaceTitle,
+    .homeEmailTitle,
+    .homeDegreeTitle {
+        font-size: 1.75rem;
+    }
+
+    .homeName,
+    .homeBirth,
+    .homePhone,
+    .homePlace,
+    .homeEmail,
+    .homeDegreeTextWrap {
+        font-size: 1.5rem;
+    }
+
+    .homeName {
+        margin-left: 2.75rem;
+    }
+
+    .homeBirth {
+        margin-left: 3.625rem;
+    }
+
+    .homePhone {
+        margin-left: 2.5rem;
+    }
+
+    .homePlace {
+        margin-left: 3.375rem;
+    }
+    
+    .homeEmail {
+        margin-left: 3.25rem;
+    }
+
+    .homeDegreeTextWrap {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.75rem;
+    }
+
+    .homeDegreeDesign {
+        margin-top: 1.125rem;
+    }
+
+    .mobile {
+        display: none;
+    }
 }
