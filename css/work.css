@@ -1,0 +1,47 @@
+#work {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E2D3CD;
+}
+
+.workTitle {
+    padding-top: 10rem;
+}
+
+.workWrapCont {
+    display: flex;
+    width: 78.875rem;
+    height: 44.25rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto;
+    margin-top: 7.375rem;
+    background-color: pink;
+}
+
+.workWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workImg {
+    width: 400px;
+    height: 300px;
+    background-color: #ECE1DC;
+    border-radius: 5px;
+}
+
+.workWrapTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #0F0F0F;
+}
+
+.workWrapText {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #818181;
+    margin-top: 0.25rem;
+}
