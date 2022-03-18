@@ -1,6 +1,5 @@
 #work {
     width: 100vw;
-    height: 100vh;
     background-color: #E2D3CD;
 }
 
@@ -10,13 +9,13 @@
 
 .workWrapCont {
     display: flex;
-    width: 78.875rem;
-    height: 44.25rem;
+    width: 65.72916666667%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
     margin: 0 auto;
     margin-top: 7.375rem;
+    padding-bottom: 4.813rem;
 }
 
 .workWrap {
@@ -26,10 +25,11 @@
 }
 
 .workImg {
-    width: 400px;
-    height: 300px;
+    width: 25rem;
+    height: 18.75rem;
     background-color: #ECE1DC;
     border-radius: 5px;
+    margin-bottom: 0.938rem;
 }
 
 .workWrapTitle {
@@ -43,4 +43,47 @@
     font-weight: 400;
     color: #818181;
     margin-top: 0.25rem;
+    margin-bottom: 0.938rem;
+}
+
+@media all and (min-width: 1921px) {
+    .workWrapCont {
+        width: 68.58974358974%;
+    }
+}
+
+@media all and (max-width: 1920px){
+    .workWrapCont {
+        width: 83.58974358974%;
+    }
+}
+
+@media all and (max-width: 426px){
+    .workWrapCont {
+        width: 83.58974358974%;
+    }
+
+    .workImg {
+        width: 18.375rem;
+        height: 13.781rem;
+    }
+
+    .workWrapText {
+        margin-bottom: 7.625rem;
+    }
+}
+
+@media all and (max-width: 320px){
+    .workWrapCont {
+        width: 93.58974358974%;
+    }
+
+    .workImg {
+        transform: scale(0.8);
+    }
+
+    .workWrapText {
+        margin-bottom: 2.625rem;
+    }
+
 }
