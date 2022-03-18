@@ -1,6 +1,9 @@
 #skills {
     background-color: #F9F9F9;
+}
 
+.skillsTitle {
+    padding-top: 10rem;
 }
 
 .skillsLevel {
@@ -62,4 +65,39 @@
     line-height: 1.563rem;
     text-align: center;
     color: #818181;
+}
+
+/* skillSet */
+
+.skillSet {
+    display: flex;
+    width: 78.875rem;
+    padding-bottom: 9.625rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 7.313rem;
+}
+
+.programmingOne,
+.programmingTwo,
+.designtoolOne,
+.designtoolTwo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    color: #0F0F0F;
+}
+
+.programmingOne,
+.designtoolOne {
+    height: 23.313rem;
+}
+
+.programmingTwo {
+    height: 18rem;
+}
+
+.designtoolTwo {
+    height: 12.688rem;
 }
