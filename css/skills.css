@@ -1,0 +1,65 @@
+#skills {
+    background-color: #F9F9F9;
+
+}
+
+.skillsLevel {
+    display: flex;
+    justify-content: center;
+}
+
+.skillsLevelWrap {
+    display: flex;
+    width: 92rem;
+    justify-content: space-between;
+    margin-top: 5.063rem;
+}
+
+.skillsLevelOne,
+.skillsLevelTwo,
+.skillsLevelThree,
+.skillsLevelFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsLevelImgOne,
+.skillsLevelImgTwo,
+.skillsLevelImgThree,
+.skillsLevelImgFour {
+    width: 5.938rem;
+    height: 6.563rem;
+    margin-bottom: 1.75rem;
+}
+
+.skillsLevelImgOne {
+    background-image: url(../img/01.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgTwo {
+    background-image: url(../img/02.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgThree {
+    background-image: url(../img/03.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelImgFour {
+    background-image: url(../img/04.png);
+    background-size: 100% 100%;
+}
+
+.skillsLevelTextOne,
+.skillsLevelTextTwo,
+.skillsLevelTextThree,
+.skillsLevelTextFour {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.563rem;
+    text-align: center;
+    color: #818181;
+}

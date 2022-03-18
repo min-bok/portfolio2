@@ -62,7 +62,7 @@ body {
     font-size: 2.25rem;
     font-weight: 700;
     color: #A49B89;
-    margin-top: 6.25rem;
+    padding-top: 6.25rem;
     margin-left: 6.25rem;
 }
 
@@ -72,7 +72,7 @@ body {
         width: 40rem;
         font-size: 2rem;
         margin: 0 auto;
-        margin-top: 12rem;
+        padding-top: 12rem;
     }    
 }
 
@@ -81,6 +81,6 @@ body {
         width: 35rem;
         font-size: 2rem;
         margin: 0 auto;
-        margin-top: 12rem;
+        padding-top: 12rem;
     }    
 }
