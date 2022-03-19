@@ -9,12 +9,6 @@
     font-family: 'GmarketSansMedium';
 }
 
-/* .headerCont {
-    width: 100%;
-    height: 100%;
-    background-color: #E2D3CD;
-} */
-
 .menuWrap {
     display: flex;
     width: 51.938rem;
@@ -56,14 +50,16 @@
 
     .hamburger {
         position: absolute;
-        margin-right: 3.5rem;
+        top: 3.5rem;
+        right: 4rem;
         z-index: 999;
     }
 
     .hamburger .line {
         width: 30px;
         height: 2px;
-        background-color: #A49B89;
+        /* background-color: #A49B89; */
+        background-color: #000;
         display: block;
         margin: 8px auto;
         -webkit-transition: all 0.3s ease-in-out;
