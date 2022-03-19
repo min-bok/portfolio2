@@ -58,19 +58,18 @@
     .hamburger .line {
         width: 30px;
         height: 2px;
-        /* background-color: #A49B89; */
-        background-color: #000;
+        background-color: #A49B89;
         display: block;
         margin: 8px auto;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
         border-radius: 5px;
-      }
+    }
 
     .hamburger.is-active .line:nth-child(2) {
         opacity: 0;
-      }
+    }
       
     .hamburger.is-active .line:nth-child(1) {
       -webkit-transform: translateY(10px) rotate(45deg);
@@ -84,5 +83,9 @@
       -ms-transform: translateY(-10px) rotate(-45deg);
       -o-transform: translateY(-10px) rotate(-45deg);
       transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .hamburger .color {
+        background-color: #ECE1DC;
     }
 }
