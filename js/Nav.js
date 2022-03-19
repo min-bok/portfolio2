@@ -89,6 +89,28 @@ velog.addEventListener('click', function() {
 })
 
 // nav
+const nav = document.querySelector('.hide');
+
+function moveNav() {
+    nav.classList.remove('show');
+    hamburger.classList.remove('is-active');
+    hamburgerSpanOne.classList.remove('color');
+    hamburgerSpanThree.classList.remove('color');
+}
+
+const navHome = document.querySelector('.navHome');
+const navAbout = document.querySelector('.navAbout');
+const navSkills = document.querySelector('.navSkills');
+const navWork = document.querySelector('.navWork');
+const navContact = document.querySelector('.navContact');
+
+navHome.addEventListener('click', moveNav);
+navAbout.addEventListener('click', moveNav);
+navSkills.addEventListener('click', moveNav);
+navWork.addEventListener('click', moveNav);
+navContact.addEventListener('click', moveNav);
+
+// nav icon
 const navGithub = document.querySelector('.navGithub');
 const navVelog = document.querySelector('.navVelog');
 

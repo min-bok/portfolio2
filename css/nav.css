@@ -16,6 +16,12 @@
     left: 8rem;
 }
 
+.navMeunWrap a {
+    text-decoration-line : none;
+    text-decoration : none;
+    color: #ECE1DC;
+}
+
 .navIcon {
     position: absolute;
     display: flex;
@@ -51,13 +57,14 @@
 
 @media all and (max-width: 426px){
     #nav {
+        position: fixed;
         display: block;
-        position: absolute;
         width: 83.33333333333%;
         height: 100vh;
         background-color: transparent;
         overflow: hidden;
         right: 0;
+        z-index: 990;
     }
 
     .hide {
