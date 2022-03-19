@@ -25,6 +25,7 @@
 }
 
 .workImg {
+    position: relative;
     width: 25rem;
     height: 18.75rem;
     background-color: #ECE1DC;

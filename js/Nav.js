@@ -2,13 +2,13 @@
 const hamburger = document.querySelector('.hamburger');
 const hamburgerSpanOne = document.querySelector('.line:nth-child(1)');
 const hamburgerSpanThree = document.querySelector('.line:nth-child(3)');
-const hide = document.querySelector('.hide');
+const nav = document.querySelector('#nav');
 
 hamburger.addEventListener('click', function() {
     hamburger.classList.toggle('is-active');
-    hide.classList.toggle('show');
     hamburgerSpanOne.classList.toggle('color');
     hamburgerSpanThree.classList.toggle('color');
+    nav.classList.toggle('open');
 })
 
 // header
@@ -38,6 +38,8 @@ menuWork.addEventListener('click', function() {
 menuContact.addEventListener('click', function() {
     document.querySelector('#footer').scrollIntoView();
 });
+
+// 여기 수정하기
 
 window.addEventListener('scroll', function() {
     const posY = window.pageYOffset;
@@ -73,7 +75,6 @@ window.addEventListener('scroll', function() {
         }
 });
 
-
 // contact
 const github = document.querySelector('.github');
 const email = document.querySelector('.email');
@@ -89,10 +90,8 @@ velog.addEventListener('click', function() {
 })
 
 // nav
-const nav = document.querySelector('.hide');
-
-function moveNav() {
-    nav.classList.remove('show');
+function openNav() {
+    nav.classList.remove('open');
     hamburger.classList.remove('is-active');
     hamburgerSpanOne.classList.remove('color');
     hamburgerSpanThree.classList.remove('color');
@@ -104,11 +103,11 @@ const navSkills = document.querySelector('.navSkills');
 const navWork = document.querySelector('.navWork');
 const navContact = document.querySelector('.navContact');
 
-navHome.addEventListener('click', moveNav);
-navAbout.addEventListener('click', moveNav);
-navSkills.addEventListener('click', moveNav);
-navWork.addEventListener('click', moveNav);
-navContact.addEventListener('click', moveNav);
+navHome.addEventListener('click', openNav);
+navAbout.addEventListener('click', openNav);
+navSkills.addEventListener('click', openNav);
+navWork.addEventListener('click', openNav);
+navContact.addEventListener('click', openNav);
 
 // nav icon
 const navGithub = document.querySelector('.navGithub');
