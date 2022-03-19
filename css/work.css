@@ -47,6 +47,36 @@
     margin-bottom: 1.938rem;
 }
 
+.workOne {
+    background-image: url(../img/landingPage.jpg);
+    background-size: 100% 100%;
+}
+
+.workTwo {
+    background-image: url(../img/landingPage.jpg);
+    background-size: 100% 100%;
+}
+
+.workThree {
+    background-image: url(../img/landingPage.jpg);
+    background-size: 100% 100%;
+}
+
+.workFour {
+    background-image: url(../img/landingPage.jpg);
+    background-size: 100% 100%;
+}
+
+.workFive {
+    background-image: url(../img/myvoca.png);
+    background-size: 100% 100%;
+}
+
+.workSix {
+    background-image: url(../img/landingPage.png);
+    background-size: 100% 100%;
+}
+
 @media all and (min-width: 1921px) {
     .workWrapCont {
         width: 68.58974358974%;
