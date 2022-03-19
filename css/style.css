@@ -12,12 +12,18 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
     background-color: #ECE1DC;
     overflow-x: hidden;
+}
+
+#header .menuWrap a {
+    color: #A49B89;
+    text-decoration: none 
 }
 
 @media all and (min-width: 2100px) {
