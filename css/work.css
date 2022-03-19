@@ -15,7 +15,7 @@
     align-content: space-between;
     margin: 0 auto;
     margin-top: 7.375rem;
-    padding-bottom: 4.813rem;
+    padding-bottom: 3.013rem;
 }
 
 .workWrap {
@@ -29,7 +29,8 @@
     height: 18.75rem;
     background-color: #ECE1DC;
     border-radius: 5px;
-    margin-bottom: 0.938rem;
+    margin-bottom: 1.538rem;
+    cursor: pointer;
 }
 
 .workWrapTitle {
@@ -43,7 +44,7 @@
     font-weight: 400;
     color: #818181;
     margin-top: 0.25rem;
-    margin-bottom: 0.938rem;
+    margin-bottom: 1.938rem;
 }
 
 @media all and (min-width: 1921px) {
