@@ -1,29 +1,19 @@
 #footer {
     position: relative;
+    display: flex;
     width: 100vw;
-    height: 28.51851851852%;
-    background-color: #E2D3CD;
+    height: 19.188rem;
+    background-color: #A49B89;
+    justify-content: center;
 }
 
 .contactWave {
+    position: absolute;
     width: 100vw;
-    height: 6.677rem;
-    background-image: url(../img/ContactWave.svg);
-    background-color: #E2D3CD;
+    height: 6.579rem;
+    background-image: url(../img/waves.svg);
     background-size: 100% 100%;
-    margin-top: 5rem;
-    margin: 0 auto;
-    border: none;
-    margin-bottom: -3px;
-}
-
-.contactBg {
-    position: relative;
-    display: flex;
-    height: 12.813rem;
-    background-color: #A49B89;
-    justify-content: center;
-    padding-top: 5rem;
+    top: -1px;
 }
 
 .contactWrap {
@@ -57,24 +47,34 @@
 
 .github {
     background-image: url(../img/github.svg);
-    background-image: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .email {
     background-image: url(../img/email.svg);
-    background-image: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .phone {
     background-image: url(../img/phone.svg);
-    background-image: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .velog {
     background-image: url(../img/velog.svg);
-    background-image: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+@media all and (max-width: 325px){
+    .contactText {
+        display: none;
+    }
+
+    .contactWrap {
+        justify-content: flex-end;
+    }
 }
