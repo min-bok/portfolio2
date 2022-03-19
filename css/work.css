@@ -54,6 +54,12 @@
 
 @media all and (max-width: 1920px){
     .workWrapCont {
+        width: 65.72916666667%;
+    }
+}
+
+@media all and (max-width: 1600px){
+    .workWrapCont {
         width: 83.58974358974%;
     }
 }

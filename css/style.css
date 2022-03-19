@@ -11,15 +11,13 @@
 }
 
 html {
-    width: 100vw;
-    height: 100vh;
     font-size: 16px;
-    /* overflow: hidden; */
 }
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
     background-color: #ECE1DC;
+    overflow-x: hidden;
 }
 
 @media all and (min-width: 2100px) {
