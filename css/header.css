@@ -39,7 +39,7 @@
 }
 
 /**Mobile L 425X481**/
-@media all and (max-width: 426px){
+@media all and (max-width: 768px){
     #header {
         height: 9.5rem;
         z-index: 10;

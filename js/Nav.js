@@ -39,40 +39,64 @@ menuContact.addEventListener('click', function() {
     document.querySelector('#footer').scrollIntoView();
 });
 
-// 여기 수정하기
+// header for desktop
 
 window.addEventListener('scroll', function() {
     const posY = window.pageYOffset;
+    const home = this.document.querySelector('#home').getBoundingClientRect().top;
+    const about = this.document.querySelector('#about').getBoundingClientRect().top;
+    const skills = this.document.querySelector('#skills').getBoundingClientRect().top;
+    const work = this.document.querySelector('#work').getBoundingClientRect().top;
 
-    menuSkills.innerHTML = posY;
+    const homeTop = posY + home;
+    const aboutTop = posY + about - 200;
+    const skillsTop = posY + skills - 200;
+    const workTop = posY + work - 200;
 
-        if(posY < 500) {
-            menuHome.classList.add('menuHover');
-            menuAbout.classList.remove('menuHover');
-            menuSkills.classList.remove('menuHover');
-            menuWork.classList.remove('menuHover');
-        }
+    const body = this.document.querySelector('body');
+
+    const innerHeight = body.offsetHeight;
+    const pageYOffset = this.window.pageYOffset;
+
+    const scrollHeight = body.scrollHeight;
+
+    let totalHeight = document.body.scrollHeight - window.innerHeight -1;
     
-        else if (posY > 400 && posY < 1200){
-            menuAbout.classList.add('menuHover');
-            menuHome.classList.remove('menuHover');
-            menuSkills.classList.remove('menuHover');
-            menuWork.classList.remove('menuHover');
-        }
-    
-        else if (posY > 1200 && posY < 1850){
-            menuSkills.classList.add('menuHover');
-            menuHome.classList.remove('menuHover');
-            menuAbout.classList.remove('menuHover');
-            menuWork.classList.remove('menuHover');
-        }
-    
-        else if (posY > 1850){
-            menuWork.classList.add('menuHover');
-            menuHome.classList.remove('menuHover');
-            menuAbout.classList.remove('menuHover');
-            menuSkills.classList.remove('menuHover');
-        }
+    console.log(`totalHeight` + totalHeight);
+    console.log(`innerHeight` + innerHeight);
+    console.log(`pageYOffset` + pageYOffset);
+
+    if(posY >= homeTop && posY < aboutTop) {
+        menuHome.classList.add('menuHover');
+        menuAbout.classList.remove('menuHover');
+        menuSkills.classList.remove('menuHover');
+        menuWork.classList.remove('menuHover');
+        menuContact.classList.remove('menuHover');
+    } else if(posY >= aboutTop && posY < skillsTop) {
+        menuAbout.classList.add('menuHover');
+        menuHome.classList.remove('menuHover');
+        menuSkills.classList.remove('menuHover');
+        menuWork.classList.remove('menuHover');
+        menuContact.classList.remove('menuHover');
+    } else if(posY >= skillsTop && posY < workTop) {
+        menuSkills.classList.add('menuHover');
+        menuHome.classList.remove('menuHover');
+        menuAbout.classList.remove('menuHover');
+        menuWork.classList.remove('menuHover');
+        menuContact.classList.remove('menuHover');
+    } else if(posY >= workTop && pageYOffset <= totalHeight) {
+        menuWork.classList.add('menuHover');
+        menuHome.classList.remove('menuHover');
+        menuAbout.classList.remove('menuHover');
+        menuSkills.classList.remove('menuHover');
+        menuContact.classList.remove('menuHover');
+    } else {
+        menuContact.classList.add('menuHover');
+        menuHome.classList.remove('menuHover');
+        menuAbout.classList.remove('menuHover');
+        menuSkills.classList.remove('menuHover');
+        menuWork.classList.remove('menuHover');
+    }
 });
 
 // contact

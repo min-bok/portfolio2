@@ -55,7 +55,7 @@
     background-image: url(../img/velog.svg);
 }
 
-@media all and (max-width: 426px){
+@media all and (max-width: 768px){
     #nav {
         position: fixed;
         display: block;
