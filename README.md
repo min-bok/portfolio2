@@ -74,4 +74,5 @@ https://www.figma.com/file/NNgvkE8gDj8mdfB2Qj9Pbb/portpolio?node-id=0%3A1
 <br>
 
 # 🛠 추가 수정사항
-- 2022-03-21 w820 (ipad Air) 사이즈 수정 필요(가로로 약간 눌린 듯 보임)
+- 2022-03-20 w820 (ipad Air) 사이즈 수정 필요(가로로 약간 눌린 듯 보임)
+- 2022-03-21 웹 표준 검사 통과
