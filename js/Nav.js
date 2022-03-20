@@ -52,19 +52,13 @@ window.addEventListener('scroll', function() {
     const aboutTop = posY + about - 200;
     const skillsTop = posY + skills - 200;
     const workTop = posY + work - 200;
-
-    const body = this.document.querySelector('body');
-
-    const innerHeight = body.offsetHeight;
     const pageYOffset = this.window.pageYOffset;
-
-    const scrollHeight = body.scrollHeight;
 
     let totalHeight = document.body.scrollHeight - window.innerHeight -1;
     
-    console.log(`totalHeight` + totalHeight);
-    console.log(`innerHeight` + innerHeight);
-    console.log(`pageYOffset` + pageYOffset);
+    // console.log(`totalHeight` + totalHeight);
+    // console.log(`innerHeight` + innerHeight);
+    // console.log(`pageYOffset` + pageYOffset);
 
     if(posY >= homeTop && posY < aboutTop) {
         menuHome.classList.add('menuHover');
