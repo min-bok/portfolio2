@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: end;
     font-family: 'GmarketSansMedium';
+    z-index: 10;
 }
 
 .menuWrap {
