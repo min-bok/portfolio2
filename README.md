@@ -29,9 +29,14 @@ HTML, CSS, JavaScript
 <table>
   <tr>
     <th>PC</th>
-    <th>Tablet & Moblie</th>
   </tr>
-  <tr>
+    <tr>
+    <th>Tablet</th>
+  </tr>
+    <tr>
+    <th>Moblie</th>
+  </tr>
+  <!-- <tr>
     <td>2690 x 1376</td>
     <td>768 x 481</td>
   </tr>
@@ -46,7 +51,7 @@ HTML, CSS, JavaScript
     <tr>
     <td>1042 x 642</td>
     <td>412 x 915 (Samsung Galaxy S20 Ultra)</td>
-  </tr>
+  </tr> -->
 </table>
 
 <br>
