@@ -2,19 +2,16 @@
 <br>
 <br>
 <br>
-<!-- <div align="center">
-  <img src="./src/img/cat-subscribe.png" width="100px">
+<div align="center">
+  <img src="/img/logo.svg" width="100px">
 </div>
-<br>
-<br>
-<br>
-<br> -->
 <br>
 <br>
 <br>
 <br>
   
 # 👩 Portfoio 소개
+자기소개를 위한 포트폴리오 웹 사이트 입니다.
 
 <br>
 <br>
@@ -28,30 +25,10 @@ HTML, CSS, JavaScript
 # 🖥 Responsive
 <table>
   <tr>
-    <th>PC</th>
+    <th width='100px'>PC</th>
+    <th width='100px'>Tablet</th>
+    <th width='100px'>Moblie</th>
   </tr>
-    <tr>
-    <th>Tablet</th>
-  </tr>
-    <tr>
-    <th>Moblie</th>
-  </tr>
-  <!-- <tr>
-    <td>2690 x 1376</td>
-    <td>768 x 481</td>
-  </tr>
-  <tr>
-    <td>1920 x 1080</td>
-    <td>375 x 667 (iphone SE)</td>
-  </tr>
-  <tr>
-    <td>1440 x 740</td>
-    <td>390 x 844 (iphone 12 pro)</td>
-  </tr>
-    <tr>
-    <td>1042 x 642</td>
-    <td>412 x 915 (Samsung Galaxy S20 Ultra)</td>
-  </tr> -->
 </table>
 
 <br>
@@ -59,6 +36,9 @@ HTML, CSS, JavaScript
 
 # 👀 Demo
 https://minbok-1998.github.io/portfolio2/
+
+<br>
+<br>
 
 # 🎨 Figma(Design)
 https://www.figma.com/file/NNgvkE8gDj8mdfB2Qj9Pbb/portpolio?node-id=0%3A1
